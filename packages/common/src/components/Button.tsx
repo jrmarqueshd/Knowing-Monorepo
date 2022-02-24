@@ -1,7 +1,4 @@
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  label: string
-  color?: string
-}
+import { ButtonProps } from "./Button.interfaces";
 
 export default function Button({label, color = 'green', ...rest}: ButtonProps){
   return (
