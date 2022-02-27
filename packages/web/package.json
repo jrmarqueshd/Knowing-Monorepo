@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@jrmarqueshd/common": "0.1.0",
+    "@jrmarqueshd/components": "*",
     "next": "12.1.0",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.4",
